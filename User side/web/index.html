@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Order tracker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            body
+            {
+             margin :0;
+             padding: 0;
+             background-color: black;
+            }
+            #form
+            {
+              position: absolute;
+              top: 32%;
+              left:43%;
+            }
+            #reset
+            {
+               height: 30px;
+               width: 100px;
+               font-size: 16px;
+            }
+            #submit
+            {
+               height: 30px;
+               width: 100px;
+               font-size: 16px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="data.jsp" method="post" id="form">
+            <span style="color:white; font-size: 20; ">Name :<br></span>
+            <input type="text" name="name"><br><br>
+            <span style="color:white; font-size: 20;">No. of members :<br></span>
+            <input type="text" name="members"><br><br>
+            
+            <input type="submit" value="Submit" id="submit">
+            &nbsp &nbsp &nbsp<input type="reset" value="Reset" id="reset">
+        </form>
+    </body>
+</html>
