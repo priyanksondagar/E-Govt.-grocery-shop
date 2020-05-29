@@ -23,8 +23,11 @@ installed on computer(Coding part is in Owner side)</p>
 
 <h4> Languages used </h4>
 <li> Java </li>
-<li> Jsp </li>
 <li> Sql </li>
-<li> Jframe </li>
 <li> Html </li>
 <li> Css </li>
+
+<h4> Other APIs and Technologies used </h4>
+<li> Jdbc </li>
+<li> Jsp </li>
+<li> Jframe </li> 
